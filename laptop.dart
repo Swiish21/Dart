@@ -18,6 +18,6 @@ class Laptop {
 }
 
 void main() {
-  Laptop myLaptop = Laptop('ST-ABCD123', 'Dell', '8GB');
+  Laptop myLaptop = Laptop('ST-ABCD123', 'Dell', '8GB', 'Intel Core i7', 'Windows 10');
   myLaptop.showDetails();
 }
