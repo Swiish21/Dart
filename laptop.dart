@@ -2,18 +2,22 @@ class Laptop {
   String id;
   String name;
   String ram;
+  String processor;
+  String os;
 
 
-  Laptop(this.id, this.name, this.ram);
+  Laptop(this.id, this.name, this.ram, this.processor, this.os);
 
   void showDetails(){
     print('ID: $id');
     print('Name: $name');
     print('RAM: $ram');
+    print('Processor: $processor');
+    print('OS: $os');
   }
 }
 
 void main() {
-  Laptop myLaptop = Laptop('Laptop-1', 'Dell', '8GB');
+  Laptop myLaptop = Laptop('ST-ABCD123', 'Dell', '8GB');
   myLaptop.showDetails();
 }
